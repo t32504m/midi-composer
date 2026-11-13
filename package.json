@@ -1,0 +1,25 @@
+{
+  "name": "midi-composer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "start": "vite build && vite preview --open",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tonejs/midi": "2.0.28",
+    "preact": "10.29.8",
+    "spessasynth_core": "4.3.22",
+    "spessasynth_lib": "4.3.14"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.10.2",
+    "typescript": "5.9.3",
+    "vite": "6.4.4",
+    "vitest": "4.1.12"
+  }
+}

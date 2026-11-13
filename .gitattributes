@@ -1,0 +1,3 @@
+# start.bat はコマンドプロンプトで動かすため、常に CRLF にする
+start.bat text eol=crlf
+*.sf3 binary
